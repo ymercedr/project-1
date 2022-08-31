@@ -40,7 +40,7 @@ h2 {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("images/donut-background.jpeg");
+    url("images/donut-background.avif");
   height: 750px;
   background-position: center;
   background-size: cover;
@@ -113,8 +113,8 @@ h3 {
 }
 
 .product img {
-  width: 150px;
-  height: 150px;
+  width: 195px;
+  height: 195px;
   margin: 10px;
   text-align: center;
 }
@@ -146,7 +146,7 @@ button {
 .form {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(images/donut-form.avif);
-  height: 750px;
+  height: 800px;
   background-position: 30%;
   background-size: cover;
   display: flex;
