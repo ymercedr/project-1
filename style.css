@@ -8,9 +8,6 @@ h1 {
 .link ul {
   display: flex;
   flex-direction: row;
-}
-
-.link ul li {
   list-style: none;
 }
 
@@ -37,14 +34,14 @@ h2 {
   font-size: 28px;
   color: white;
   background-color: palevioletred;
-  padding: 25px;
-  margin: 7px;
+  padding: 20px;
+  margin: 2px;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("images/donut-background.jpeg");
-  height: 500px;
+  height: 750px;
   background-position: center;
   background-size: cover;
 }
@@ -52,7 +49,7 @@ h2 {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 18%;
   color: white;
 }
@@ -81,13 +78,13 @@ h3 {
   font-weight: bold;
   color: white;
   background-color: palevioletred;
-  padding: 10px;
+  padding: 1px;
 }
 
 .footer-container img {
   width: 50px;
   height: 50px;
-  margin: 8px;
+  margin: 10px;
   border-radius: 30%;
 }
 
@@ -131,7 +128,7 @@ h3 {
   color: dimgray;
 }
 
-.product .button {
+button {
   padding: 5px;
   margin: 5px;
   font-weight: bold;
@@ -146,33 +143,30 @@ h3 {
 }
 
 /* Contact Page Style */
-.form-container {
+.form {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(images/donut-form.avif);
   height: 750px;
   background-position: 30%;
   background-size: cover;
-}
-
-.form {
   display: flex;
   flex-direction: column;
   align-content: space-around;
 }
 
-.form-container label {
+.form label {
   font-weight: bold;
   color: white;
   margin: 15px;
 }
 
-.form-container input,
-.form-container textarea {
+.form input,
+.form textarea {
   padding: 10px;
   margin: 15px;
 }
 
-.form-container .submit {
+.form .submit {
   width: 100px;
   margin: 10px;
   font-weight: bold;
